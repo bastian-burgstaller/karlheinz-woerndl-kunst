@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Künstler Portfolio | KarlHeinz Wörndl</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<script src="js/i18n.js" defer></script>
+<script src="js/gallery.js" defer></script>
+
+</head>
+<body>
+
+    <header class="site-header">
+        <a href="#start" class="logo">
+            <span class="logo-mark">KWh</span>
+            <span>KarlHeinz Wörndl</span>
+        </a>
+
+        <nav class="main-nav">
+            <a href="#start">Start</a>
+            <a href="#werke">Werke</a>
+            <a href="#ueber">Über mich</a>
+            <a href="#kontakt">Kontakt</a>
+        </nav>
+
+        <a href="#kontakt" class="nav-button">Anfragen</a>
+
+<button class="language-toggle" id="languageToggle" type="button" aria-label="Sprache wechseln / Change language">
+    <span class="lang-chip active" data-lang="de">
+        <img
+            src="https://flagcdn.com/w40/de.png"
+            alt="Deutsch"
+            class="lang-flag-image"
+        >
+        <span class="lang-text">DE</span>
+    </span>
+
+    <span class="lang-chip" data-lang="en">
+        <img
+            src="https://flagcdn.com/w40/gb.png"
+            alt="English"
+            class="lang-flag-image"
+        >
+        <span class="lang-text">EN</span>
+    </span>
+</button>
+
+
+    </header>
+
+    <main>
+
+        <!-- STARTBEREICH -->
+        <section id="start" class="hero-section">
+            <div class="hero-content">
+                <p class="eyebrow">Originalkunst · Acryl · Leinwand</p>
+
+                <h1>Einzigartige Kunstwerke für besondere Räume.</h1>
+
+                <p class="hero-description">
+                    Entdecken Sie handgemalte Bilder mit Charakter, Farbe und Gefühl.
+                    Jedes Werk ist ein Einzelstück und kann direkt beim Künstler angefragt werden.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#werke" class="primary-button">Werke ansehen</a>
+                    <a href="#kontakt" class="secondary-button">Kontakt aufnehmen</a>
+                </div>
+
+                <div class="hero-info">
+                    <div>
+                        <strong>100%</strong>
+                        <span>Originale</span>
+                    </div>
+                    <div>
+                        <strong>Handgemalt</strong>
+                        <span>mit Liebe zum Detail</span>
+                    </div>
+                    <div>
+                        <strong>Direkt</strong>
+                        <span>vom Künstler</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-art">
+                <div class="hero-art-card">
+                    <div class="hero-art-image">
+                    <img src="images/artworks/hero-bergbild.jpg" alt="Bergbild von KarlHeinz Wörndl">
+                    </div>
+                    <div class="hero-art-text">
+                        <span>Highlight der Galerie</span>
+                        <strong>„Gipfelruhe“</strong>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- KURZER ÜBERBLICK -->
+        <section class="intro-section">
+            <div class="intro-card">
+                <h2>Kunst, die Atmosphäre schafft.</h2>
+                <p>
+                    Ob Wohnzimmer, Büro oder Geschenkidee: Die Werke bringen Farbe,
+                    Wärme und Persönlichkeit in jeden Raum.
+                </p>
+            </div>
+
+            <div class="intro-card">
+                <h2>Einfach anfragen.</h2>
+                <p>
+                    Kein komplizierter Shop. Bei Interesse einfach per E-Mail melden
+                    und das gewünschte Bild unverbindlich anfragen.
+                </p>
+            </div>
+
+            <div class="intro-card">
+                <h2>Transparent & übersichtlich.</h2>
+                <p>
+                    Zu jedem Werk finden Sie Titel, Technik, Größe, Preis und eine
+                    kurze Beschreibung.
+                </p>
+            </div>
+        </section>
+
+<!-- GALERIE -->
+<section id="werke" class="section gallery-section">
+    <div class="section-heading">
+        <p class="eyebrow">Galerie</p>
+        <h2>Ausgewählte Werke</h2>
+        <p>
+            Eine Auswahl aktueller Bilder. Nutzen Sie die Filter, um schneller
+            passende Werke nach Format, Größe oder Motiv zu finden.
+        </p>
+    </div>
+
+    <div class="filter-area">
+
+        <div class="filter-group">
+            <span>Format</span>
+            <button class="filter-button active" data-filter-type="orientation" data-filter-value="alle">Alle</button>
+            <button class="filter-button" data-filter-type="orientation" data-filter-value="hochformat">Hochformat</button>
+            <button class="filter-button" data-filter-type="orientation" data-filter-value="querformat">Querformat</button>
+            <button class="filter-button" data-filter-type="orientation" data-filter-value="quadratisch">Quadratisch</button>
+        </div>
+
+        <div class="filter-group">
+            <span>Größe</span>
+            <button class="filter-button active" data-filter-type="sizeCategory" data-filter-value="alle">Alle</button>
+            <button class="filter-button" data-filter-type="sizeCategory" data-filter-value="klein">Klein</button>
+            <button class="filter-button" data-filter-type="sizeCategory" data-filter-value="mittel">Mittel</button>
+            <button class="filter-button" data-filter-type="sizeCategory" data-filter-value="gross">Groß</button>
+        </div>
+
+        <div class="filter-group">
+            <span>Motiv</span>
+            <button class="filter-button active" data-filter-type="theme" data-filter-value="alle">Alle</button>
+            <button class="filter-button" data-filter-type="theme" data-filter-value="natur">Natur</button>
+            <button class="filter-button" data-filter-type="theme" data-filter-value="modern">Modern</button>
+            <button class="filter-button" data-filter-type="theme" data-filter-value="person">Person</button>
+        </div>
+
+    </div>
+
+    <div class="artwork-grid"></div>
+</section>
+
+        <!-- ÜBER MICH -->
+        <section id="ueber" class="about-section">
+            <div class="about-image"></div>
+
+            <div class="about-content">
+                <p class="eyebrow">Über den Künstler</p>
+                <h2>Aus Freude an Farbe, Form und Ausdruck.</h2>
+
+                <p>
+                    Mein Name ist KarlHeinz Wörndl. Ich male seit vielen Jahren aus Leidenschaft.
+                    Meine Bilder entstehen aus Momenten, Stimmungen und Eindrücken,
+                    die ich auf Leinwand festhalte.
+                </p>
+
+                <p>
+                    Dabei geht es mir nicht um perfekte Gleichmäßigkeit, sondern um
+                    Ausdruck, Gefühl und die Wirkung des Bildes im Raum.
+                </p>
+
+                <a href="#kontakt" class="primary-button">Bild anfragen</a>
+            </div>
+        </section>
+
+        <!-- ABLAUF -->
+        <section class="section steps-section">
+            <div class="section-heading">
+                <p class="eyebrow">So funktioniert es</p>
+                <h2>In 3 einfachen Schritten zum Kunstwerk</h2>
+            </div>
+
+            <div class="steps">
+                <div class="step-card">
+                    <span>01</span>
+                    <h3>Bild auswählen</h3>
+                    <p>Sie sehen sich die Werke in Ruhe an und wählen ein passendes Bild aus.</p>
+                </div>
+
+                <div class="step-card">
+                    <span>02</span>
+                    <h3>Anfrage senden</h3>
+                    <p>Sie schreiben eine kurze E-Mail mit dem gewünschten Bildtitel.</p>
+                </div>
+
+                <div class="step-card">
+                    <span>03</span>
+                    <h3>Details klären</h3>
+                    <p>Preis, Verfügbarkeit, Abholung oder Versand werden persönlich besprochen.</p>
+                </div>
+            </div>
+        </section>
+
+<!-- HÄUFIGE FRAGEN -->
+<section class="section faq-section">
+    <div class="section-heading">
+        <p class="eyebrow">Gut zu wissen</p>
+        <h2>Häufige Fragen</h2>
+        <p>
+            Hier finden Sie die wichtigsten Informationen zur Anfrage,
+            Verfügbarkeit und zum Kauf eines Kunstwerks.
+        </p>
+    </div>
+
+    <div class="faq-grid">
+
+        <div class="faq-card">
+            <h3>Ist das ein Online-Shop?</h3>
+            <p>
+                Nein. Die Website dient als Übersicht über verfügbare Kunstwerke.
+                Bei Interesse kann ein Bild unverbindlich per E-Mail angefragt werden.
+            </p>
+        </div>
+
+        <div class="faq-card">
+            <h3>Sind die Preise fix?</h3>
+            <p>
+                Die angegebenen Preise dienen als Orientierung. Verfügbarkeit,
+                Übergabe und weitere Details werden persönlich besprochen.
+            </p>
+        </div>
+
+        <div class="faq-card">
+            <h3>Kann man Bilder reservieren?</h3>
+            <p>
+                Ja, einzelne Bilder können nach persönlicher Absprache vorübergehend
+                reserviert werden.
+            </p>
+        </div>
+
+        <div class="faq-card">
+            <h3>Abholung oder Versand?</h3>
+            <p>
+                Je nach Werk kann eine Abholung oder ein Versand vereinbart werden.
+                Details werden direkt mit dem Künstler geklärt.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- KONTAKT -->
+<section id="kontakt" class="contact-section">
+    <div class="contact-content">
+        <p class="eyebrow">Kontakt</p>
+        <h2>Interesse an einem Kunstwerk?</h2>
+
+        <p>
+            Bei Interesse an einem Bild können Sie direkt eine unverbindliche
+            Anfrage senden. Bitte nennen Sie am besten den Titel des gewünschten
+            Werks, damit die Anfrage schnell zugeordnet werden kann.
+        </p>
+
+        <div class="contact-points">
+            <div>
+                <strong>Unverbindlich</strong>
+                <span>Sie fragen zuerst nur an.</span>
+            </div>
+
+            <div>
+                <strong>Persönlich</strong>
+                <span>Alle Details werden direkt geklärt.</span>
+            </div>
+
+            <div>
+                <strong>Einfach</strong>
+                <span>Keine Registrierung, kein Shop-System.</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-card">
+        <h3>KarlHeinz Wörndl</h3>
+        <p>Hobbykünstler aus Österreich</p>
+
+        <div class="contact-info-list">
+            <div>
+                <span>E-Mail</span>
+                <a href="mailto:karlheinz.woerndl@sbg.at">
+                    karlheinz.woerndl@sbg.at
+                </a>
+            </div>
+
+            <div>
+                <span>Telefon</span>
+                <a href="tel:+436643579290">
+                    +43 664 3579290
+                </a>
+            </div>
+
+            <div>
+                <span>Instagram</span>
+                <a href="https://www.instagram.com/worndlkarl" target="_blank" rel="noopener">
+                    @worndlkarl
+                </a>
+            </div>
+        </div>
+
+        <a href="mailto:karlheinz.woerndl@sbg.at?subject=Anfrage%20zu%20einem%20Kunstwerk" class="primary-button">
+            Anfrage per E-Mail senden
+        </a>
+
+        <small>
+            Gerne können Sie bei Interesse an einem Werk direkt Kontakt aufnehmen.
+        </small>
+    </div>
+</section>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 KarlHeinz Wörndl. Alle Rechte vorbehalten.</p>
+
+        <div>
+            <a href="impressum.html">Impressum</a>
+            <a href="datenschutz.html">Datenschutz</a>
+        </div>
+    </footer>
+
+<div class="modal" id="artworkModal">
+    <div class="modal-background"></div>
+
+    <div class="modal-content">
+        <button class="modal-close" id="modalClose">×</button>
+
+        <div class="modal-image" id="modalImage"></div>
+
+        <div class="modal-info">
+            <p class="artwork-category" id="modalCategory"></p>
+            <h2 id="modalTitle"></h2>
+            <p id="modalDescription"></p>
+
+            <div class="modal-details">
+                <span id="modalSize"></span>
+                <span id="modalOrientation"></span>
+                <span id="modalTheme"></span>
+                <span id="modalStatus"></span>
+            </div>
+
+            <div class="modal-footer">
+                <strong id="modalPrice"></strong>
+                <a href="#" class="primary-button" id="modalRequestButton">Bild anfragen</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

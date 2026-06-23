@@ -1,0 +1,412 @@
+const translations = {
+    de: {
+        pageTitle: "Künstler Portfolio | KarlHeinz Wörndl",
+
+        navStart: "Start",
+        navWorks: "Werke",
+        navAbout: "Über mich",
+        navContact: "Kontakt",
+        navRequest: "Anfragen",
+
+        heroEyebrow: "Originalkunst · Acryl · Leinwand",
+        heroTitle: "Einzigartige Kunstwerke für besondere Räume.",
+        heroDescription: "Entdecken Sie handgemalte Bilder mit Charakter, Farbe und Gefühl. Jedes Werk ist ein Einzelstück und kann direkt beim Künstler angefragt werden.",
+        heroPrimary: "Werke ansehen",
+        heroSecondary: "Kontakt aufnehmen",
+
+        heroStatOneTitle: "100%",
+        heroStatOneText: "Originale",
+        heroStatTwoTitle: "Handgemalt",
+        heroStatTwoText: "mit Liebe zum Detail",
+        heroStatThreeTitle: "Direkt",
+        heroStatThreeText: "vom Künstler",
+
+        heroArtLabel: "Highlight der Galerie",
+        heroArtTitle: "„Gipfelruhe“",
+
+        introOneTitle: "Kunst, die Atmosphäre schafft.",
+        introOneText: "Ob Wohnzimmer, Büro oder Geschenkidee: Die Werke bringen Farbe, Wärme und Persönlichkeit in jeden Raum.",
+        introTwoTitle: "Einfach anfragen.",
+        introTwoText: "Kein komplizierter Shop. Bei Interesse einfach per E-Mail melden und das gewünschte Bild unverbindlich anfragen.",
+        introThreeTitle: "Transparent & übersichtlich.",
+        introThreeText: "Zu jedem Werk finden Sie Titel, Technik, Größe, Preis und eine kurze Beschreibung.",
+
+        galleryEyebrow: "Galerie",
+        galleryTitle: "Ausgewählte Werke",
+        galleryText: "Eine Auswahl aktueller Bilder. Nutzen Sie die Filter, um schneller passende Werke nach Format, Größe oder Motiv zu finden.",
+
+        filterFormat: "Format",
+        filterSize: "Größe",
+        filterTheme: "Motiv",
+        filterAll: "Alle",
+        filterPortrait: "Hochformat",
+        filterLandscape: "Querformat",
+        filterSquare: "Quadratisch",
+        filterSmall: "Klein",
+        filterMedium: "Mittel",
+        filterLarge: "Groß",
+        filterNature: "Natur",
+        filterModern: "Modern",
+        filterPerson: "Person",
+
+        aboutEyebrow: "Über den Künstler",
+        aboutTitle: "Aus Freude an Farbe, Form und Ausdruck.",
+        aboutTextOne: "Mein Name ist KarlHeinz Wörndl. Ich male seit vielen Jahren aus Leidenschaft. Meine Bilder entstehen aus Momenten, Stimmungen und Eindrücken, die ich auf Leinwand festhalte.",
+        aboutTextTwo: "Dabei geht es mir nicht um perfekte Gleichmäßigkeit, sondern um Ausdruck, Gefühl und die Wirkung des Bildes im Raum.",
+        aboutButton: "Bild anfragen",
+
+        stepsEyebrow: "So funktioniert es",
+        stepsTitle: "In 3 einfachen Schritten zum Kunstwerk",
+        stepOneTitle: "Bild auswählen",
+        stepOneText: "Sie sehen sich die Werke in Ruhe an und wählen ein passendes Bild aus.",
+        stepTwoTitle: "Anfrage senden",
+        stepTwoText: "Sie schreiben eine kurze E-Mail mit dem gewünschten Bildtitel.",
+        stepThreeTitle: "Details klären",
+        stepThreeText: "Preis, Verfügbarkeit, Abholung oder Versand werden persönlich besprochen.",
+
+        faqEyebrow: "Gut zu wissen",
+        faqTitle: "Häufige Fragen",
+        faqText: "Hier finden Sie die wichtigsten Informationen zur Anfrage, Verfügbarkeit und zum Kauf eines Kunstwerks.",
+        faqOneTitle: "Ist das ein Online-Shop?",
+        faqOneText: "Nein. Die Website dient als Übersicht über verfügbare Kunstwerke. Bei Interesse kann ein Bild unverbindlich per E-Mail angefragt werden.",
+        faqTwoTitle: "Sind die Preise fix?",
+        faqTwoText: "Die angegebenen Preise dienen als Orientierung. Verfügbarkeit, Übergabe und weitere Details werden persönlich besprochen.",
+        faqThreeTitle: "Kann man Bilder reservieren?",
+        faqThreeText: "Ja, einzelne Bilder können nach persönlicher Absprache vorübergehend reserviert werden.",
+        faqFourTitle: "Abholung oder Versand?",
+        faqFourText: "Je nach Werk kann eine Abholung oder ein Versand vereinbart werden. Details werden direkt mit dem Künstler geklärt.",
+
+        contactEyebrow: "Kontakt",
+        contactTitle: "Interesse an einem Kunstwerk?",
+        contactText: "Bei Interesse an einem Bild können Sie direkt eine unverbindliche Anfrage senden. Bitte nennen Sie am besten den Titel des gewünschten Werks, damit die Anfrage schnell zugeordnet werden kann.",
+        contactPointOneTitle: "Unverbindlich",
+        contactPointOneText: "Sie fragen zuerst nur an.",
+        contactPointTwoTitle: "Persönlich",
+        contactPointTwoText: "Alle Details werden direkt geklärt.",
+        contactPointThreeTitle: "Einfach",
+        contactPointThreeText: "Keine Registrierung, kein Shop-System.",
+        contactSubtitle: "Hobbykünstler aus Österreich",
+        contactEmail: "E-Mail",
+        contactPhone: "Telefon",
+        contactInstagram: "Instagram",
+        contactButton: "Anfrage per E-Mail senden",
+        contactSmall: "Gerne können Sie bei Interesse an einem Werk direkt Kontakt aufnehmen.",
+
+        footerRights: "© 2026 KarlHeinz Wörndl. Alle Rechte vorbehalten.",
+        footerImprint: "Impressum",
+        footerPrivacy: "Datenschutz"
+    },
+
+    en: {
+        pageTitle: "Artist Portfolio | KarlHeinz Wörndl",
+
+        navStart: "Home",
+        navWorks: "Works",
+        navAbout: "About",
+        navContact: "Contact",
+        navRequest: "Request",
+
+        heroEyebrow: "Original art · Acrylic · Canvas",
+        heroTitle: "Unique artworks for distinctive spaces.",
+        heroDescription: "Discover hand-painted artworks with character, color and emotion. Each piece is unique and can be requested directly from the artist.",
+        heroPrimary: "View works",
+        heroSecondary: "Get in touch",
+
+        heroStatOneTitle: "100%",
+        heroStatOneText: "Originals",
+        heroStatTwoTitle: "Hand-painted",
+        heroStatTwoText: "with attention to detail",
+        heroStatThreeTitle: "Direct",
+        heroStatThreeText: "from the artist",
+
+        heroArtLabel: "Gallery highlight",
+        heroArtTitle: "“Quiet Summit”",
+
+        introOneTitle: "Art that creates atmosphere.",
+        introOneText: "Whether for a living room, office or a special gift: these works bring color, warmth and personality into every space.",
+        introTwoTitle: "Simple inquiries.",
+        introTwoText: "No complicated shop system. If you are interested, simply send an email and request the artwork without obligation.",
+        introThreeTitle: "Clear and transparent.",
+        introThreeText: "Each work includes title, technique, size, price and a short description.",
+
+        galleryEyebrow: "Gallery",
+        galleryTitle: "Selected Works",
+        galleryText: "A selection of current artworks. Use the filters to quickly find suitable works by format, size or motif.",
+
+        filterFormat: "Format",
+        filterSize: "Size",
+        filterTheme: "Motif",
+        filterAll: "All",
+        filterPortrait: "Portrait",
+        filterLandscape: "Landscape",
+        filterSquare: "Square",
+        filterSmall: "Small",
+        filterMedium: "Medium",
+        filterLarge: "Large",
+        filterNature: "Nature",
+        filterModern: "Modern",
+        filterPerson: "Person",
+
+        aboutEyebrow: "About the artist",
+        aboutTitle: "Driven by color, form and expression.",
+        aboutTextOne: "My name is KarlHeinz Wörndl. I have been painting with passion for many years. My artworks are inspired by moments, moods and impressions that I capture on canvas.",
+        aboutTextTwo: "For me, painting is not about perfect uniformity, but about expression, emotion and the effect an artwork has in a room.",
+        aboutButton: "Request artwork",
+
+        stepsEyebrow: "How it works",
+        stepsTitle: "Your artwork in 3 simple steps",
+        stepOneTitle: "Choose a work",
+        stepOneText: "Take your time browsing the artworks and choose a piece that fits your space.",
+        stepTwoTitle: "Send a request",
+        stepTwoText: "Send a short email including the title of the artwork you are interested in.",
+        stepThreeTitle: "Clarify details",
+        stepThreeText: "Price, availability, pickup or shipping are discussed personally.",
+
+        faqEyebrow: "Good to know",
+        faqTitle: "Frequently Asked Questions",
+        faqText: "Here you will find the most important information about requests, availability and purchasing an artwork.",
+        faqOneTitle: "Is this an online shop?",
+        faqOneText: "No. This website serves as an overview of available artworks. If you are interested, you can request a piece by email without obligation.",
+        faqTwoTitle: "Are the prices fixed?",
+        faqTwoText: "The listed prices serve as orientation. Availability, handover and further details are discussed personally.",
+        faqThreeTitle: "Can artworks be reserved?",
+        faqThreeText: "Yes, individual works can be reserved temporarily after personal agreement.",
+        faqFourTitle: "Pickup or shipping?",
+        faqFourText: "Depending on the artwork, pickup or shipping can be arranged. Details are clarified directly with the artist.",
+
+        contactEyebrow: "Contact",
+        contactTitle: "Interested in an artwork?",
+        contactText: "If you are interested in a piece, you can send a non-binding request directly. Please include the title of the artwork so the request can be assigned quickly.",
+        contactPointOneTitle: "Non-binding",
+        contactPointOneText: "You simply send a request first.",
+        contactPointTwoTitle: "Personal",
+        contactPointTwoText: "All details are clarified directly.",
+        contactPointThreeTitle: "Simple",
+        contactPointThreeText: "No registration, no shop system.",
+        contactSubtitle: "Hobby artist from Austria",
+        contactEmail: "Email",
+        contactPhone: "Phone",
+        contactInstagram: "Instagram",
+        contactButton: "Send request by email",
+        contactSmall: "Feel free to get in touch directly if you are interested in an artwork.",
+
+        footerRights: "© 2026 KarlHeinz Wörndl. All rights reserved.",
+        footerImprint: "Imprint",
+        footerPrivacy: "Privacy"
+    }
+};
+
+let currentLanguage = localStorage.getItem("websiteLanguage") || "de";
+
+function setText(selector, text) {
+    const element = document.querySelector(selector);
+
+    if (element !== null) {
+        element.textContent = text;
+    }
+}
+
+function setAllText(selector, texts) {
+    const elements = document.querySelectorAll(selector);
+
+    elements.forEach(function(element, index) {
+        if (texts[index] !== undefined) {
+            element.textContent = texts[index];
+        }
+    });
+}
+
+function updateLanguageButton() {
+    const chips = document.querySelectorAll(".lang-chip");
+
+    chips.forEach(function(chip) {
+        chip.classList.remove("active");
+
+        if (chip.dataset.lang === currentLanguage) {
+            chip.classList.add("active");
+        }
+    });
+}
+
+function applyLanguage() {
+    const t = translations[currentLanguage];
+
+    document.documentElement.lang = currentLanguage;
+    document.title = t.pageTitle;
+
+    setAllText(".main-nav a", [
+        t.navStart,
+        t.navWorks,
+        t.navAbout,
+        t.navContact
+    ]);
+
+    setText(".nav-button", t.navRequest);
+
+    setText(".hero-content .eyebrow", t.heroEyebrow);
+    setText(".hero-section h1", t.heroTitle);
+    setText(".hero-description", t.heroDescription);
+    setAllText(".hero-actions a", [t.heroPrimary, t.heroSecondary]);
+
+    setAllText(".hero-info strong", [
+        t.heroStatOneTitle,
+        t.heroStatTwoTitle,
+        t.heroStatThreeTitle
+    ]);
+
+    setAllText(".hero-info span", [
+        t.heroStatOneText,
+        t.heroStatTwoText,
+        t.heroStatThreeText
+    ]);
+
+    setText(".hero-art-text span", t.heroArtLabel);
+    setText(".hero-art-text strong", t.heroArtTitle);
+
+    setAllText(".intro-card h2", [
+        t.introOneTitle,
+        t.introTwoTitle,
+        t.introThreeTitle
+    ]);
+
+    setAllText(".intro-card p", [
+        t.introOneText,
+        t.introTwoText,
+        t.introThreeText
+    ]);
+
+    setText("#werke .section-heading .eyebrow", t.galleryEyebrow);
+    setText("#werke .section-heading h2", t.galleryTitle);
+    setText("#werke .section-heading p:not(.eyebrow)", t.galleryText);
+
+    const filterGroups = document.querySelectorAll(".filter-group");
+
+    if (filterGroups[0] !== undefined) {
+        filterGroups[0].querySelector("span").textContent = t.filterFormat;
+        setAllText('.filter-group:nth-child(1) .filter-button', [
+            t.filterAll,
+            t.filterPortrait,
+            t.filterLandscape,
+            t.filterSquare
+        ]);
+    }
+
+    if (filterGroups[1] !== undefined) {
+        filterGroups[1].querySelector("span").textContent = t.filterSize;
+        setAllText('.filter-group:nth-child(2) .filter-button', [
+            t.filterAll,
+            t.filterSmall,
+            t.filterMedium,
+            t.filterLarge
+        ]);
+    }
+
+    if (filterGroups[2] !== undefined) {
+        filterGroups[2].querySelector("span").textContent = t.filterTheme;
+        setAllText('.filter-group:nth-child(3) .filter-button', [
+            t.filterAll,
+            t.filterNature,
+            t.filterModern,
+            t.filterPerson
+        ]);
+    }
+
+    setText("#ueber .eyebrow", t.aboutEyebrow);
+    setText("#ueber h2", t.aboutTitle);
+    setAllText("#ueber p:not(.eyebrow)", [t.aboutTextOne, t.aboutTextTwo]);
+    setText("#ueber .primary-button", t.aboutButton);
+
+    const stepsHeading = document.querySelector(".steps-section .section-heading");
+
+    if (stepsHeading !== null) {
+        stepsHeading.querySelector(".eyebrow").textContent = t.stepsEyebrow;
+        stepsHeading.querySelector("h2").textContent = t.stepsTitle;
+    }
+
+    setAllText(".step-card h3", [
+        t.stepOneTitle,
+        t.stepTwoTitle,
+        t.stepThreeTitle
+    ]);
+
+    setAllText(".step-card p", [
+        t.stepOneText,
+        t.stepTwoText,
+        t.stepThreeText
+    ]);
+
+    setText(".faq-section .section-heading .eyebrow", t.faqEyebrow);
+    setText(".faq-section .section-heading h2", t.faqTitle);
+    setText(".faq-section .section-heading p:not(.eyebrow)", t.faqText);
+
+    setAllText(".faq-card h3", [
+        t.faqOneTitle,
+        t.faqTwoTitle,
+        t.faqThreeTitle,
+        t.faqFourTitle
+    ]);
+
+    setAllText(".faq-card p", [
+        t.faqOneText,
+        t.faqTwoText,
+        t.faqThreeText,
+        t.faqFourText
+    ]);
+
+    setText("#kontakt .eyebrow", t.contactEyebrow);
+    setText("#kontakt h2", t.contactTitle);
+    setText(".contact-content > p:not(.eyebrow)", t.contactText);
+
+    setAllText(".contact-points strong", [
+        t.contactPointOneTitle,
+        t.contactPointTwoTitle,
+        t.contactPointThreeTitle
+    ]);
+
+    setAllText(".contact-points span", [
+        t.contactPointOneText,
+        t.contactPointTwoText,
+        t.contactPointThreeText
+    ]);
+
+    setText(".contact-card > p", t.contactSubtitle);
+
+    setAllText(".contact-info-list span", [
+        t.contactEmail,
+        t.contactPhone,
+        t.contactInstagram
+    ]);
+
+    setText(".contact-card .primary-button", t.contactButton);
+    setText(".contact-card small", t.contactSmall);
+
+    setText(".site-footer p", t.footerRights);
+    setAllText(".site-footer a", [t.footerImprint, t.footerPrivacy]);
+
+    updateLanguageButton();
+
+    window.dispatchEvent(new CustomEvent("languageChanged"));
+}
+
+function setLanguage(language) {
+    currentLanguage = language;
+    localStorage.setItem("websiteLanguage", currentLanguage);
+    applyLanguage();
+}
+
+window.getCurrentLanguage = function() {
+    return currentLanguage;
+};
+
+document.addEventListener("DOMContentLoaded", function() {
+    const chips = document.querySelectorAll(".lang-chip");
+
+    chips.forEach(function(chip) {
+        chip.addEventListener("click", function() {
+            const selectedLanguage = chip.dataset.lang;
+            setLanguage(selectedLanguage);
+        });
+    });
+
+    applyLanguage();
+});
