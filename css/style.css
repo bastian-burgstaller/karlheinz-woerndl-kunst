@@ -2152,3 +2152,30 @@ img {
         font-size: 16px;
     }
 }
+
+/* =========================
+   WECHSELNDES HERO-KUNSTWERK
+========================= */
+
+.hero-art-image img {
+    transition:
+        opacity 0.32s ease,
+        transform 0.65s ease;
+}
+
+.hero-art-image img.is-changing {
+    opacity: 0;
+    transform: scale(1.18);
+}
+
+.hero-art-text strong {
+    display: inline-block;
+    transition:
+        opacity 0.28s ease,
+        transform 0.28s ease;
+}
+
+.hero-art-text strong.is-changing {
+    opacity: 0;
+    transform: translateY(8px);
+}

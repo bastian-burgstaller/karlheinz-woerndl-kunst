@@ -261,7 +261,6 @@ function applyLanguage() {
     ]);
 
     setText(".hero-art-text span", t.heroArtLabel);
-    setText(".hero-art-text strong", t.heroArtTitle);
 
     setAllText(".intro-card h2", [
         t.introOneTitle,
