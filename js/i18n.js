@@ -50,10 +50,10 @@ const translations = {
         filterPerson: "Person",
 
         aboutEyebrow: "Über den Künstler",
-        aboutTitle: "Aus Freude an Farbe, Form und Ausdruck.",
-        aboutTextOne: "Mein Name ist KarlHeinz Wörndl. Ich male seit vielen Jahren aus Leidenschaft. Meine Bilder entstehen aus Momenten, Stimmungen und Eindrücken, die ich auf Leinwand festhalte.",
-        aboutTextTwo: "Dabei geht es mir nicht um perfekte Gleichmäßigkeit, sondern um Ausdruck, Gefühl und die Wirkung des Bildes im Raum.",
-        aboutButton: "Bild anfragen",
+        aboutTitle: "Zwischen Bewegung, Stille und Farbe.",
+        aboutTextOne: "KarlHeinz Wörndl wurde 1956 in Salzburg geboren und lebt in Straßwalchen. Bereits in jungen Jahren begann er zu malen. Seit seiner Pension widmet er sich intensiv der Kunst und arbeitet vor allem mit Acryl, Aquarell, Collagen und unterschiedlichen Materialien.",
+        aboutTextTwo: "Seine Landschaften, Porträts und abstrakten Kompositionen entstehen aus Musik, natürlichen Formen sowie dem Spiel von Licht, Schatten, Texturen und Farbschichten. Dabei sucht er ein Gleichgewicht zwischen Kontrolle und Spontanität und möchte Werke schaffen, zu denen Betrachter eine persönliche und emotionale Verbindung aufbauen.",
+        aboutButton: "Kontakt aufnehmen",
 
         stepsEyebrow: "So funktioniert es",
         stepsTitle: "In 3 einfachen Schritten zum Kunstwerk",
@@ -148,10 +148,10 @@ const translations = {
         filterPerson: "Person",
 
         aboutEyebrow: "About the artist",
-        aboutTitle: "Driven by color, form and expression.",
-        aboutTextOne: "My name is KarlHeinz Wörndl. I have been painting with passion for many years. My artworks are inspired by moments, moods and impressions that I capture on canvas.",
-        aboutTextTwo: "For me, painting is not about perfect uniformity, but about expression, emotion and the effect an artwork has in a room.",
-        aboutButton: "Request artwork",
+        aboutTitle: "Between movement, stillness and color.",
+        aboutTextOne: "KarlHeinz Wörndl was born in Salzburg in 1956 and lives in Straßwalchen. He began painting at a young age. Since retiring, he has devoted himself intensively to art, working mainly with acrylic, watercolor, collage and a variety of materials.",
+        aboutTextTwo: "His landscapes, portraits and abstract compositions are inspired by music, natural forms and the interplay of light, shadow, texture and layered color. He seeks a balance between control and spontaneity, creating works that invite viewers to form a personal and emotional connection.",
+        aboutButton: "Contact the artist",
 
         stepsEyebrow: "How it works",
         stepsTitle: "Your artwork in 3 simple steps",
