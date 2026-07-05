@@ -1,6 +1,6 @@
 const translations = {
     de: {
-        pageTitle: "Künstler Portfolio | KarlHeinz Wörndl",
+        pageTitle: "Künstler Portfolio | Karl-Heinz Wörndl",
 
         navStart: "Start",
         navWorks: "Werke",
@@ -50,10 +50,19 @@ const translations = {
         filterPerson: "Person",
 
         aboutEyebrow: "Über den Künstler",
-        aboutTitle: "Zwischen Bewegung, Stille und Farbe.",
-        aboutTextOne: "KarlHeinz Wörndl wurde 1956 in Salzburg geboren und lebt in Straßwalchen. Bereits in jungen Jahren begann er zu malen. Seit seiner Pension widmet er sich intensiv der Kunst und arbeitet vor allem mit Acryl, Aquarell, Collagen und unterschiedlichen Materialien.",
-        aboutTextTwo: "Seine Landschaften, Porträts und abstrakten Kompositionen entstehen aus Musik, natürlichen Formen sowie dem Spiel von Licht, Schatten, Texturen und Farbschichten. Dabei sucht er ein Gleichgewicht zwischen Kontrolle und Spontanität und möchte Werke schaffen, zu denen Betrachter eine persönliche und emotionale Verbindung aufbauen.",
-        aboutButton: "Kontakt aufnehmen",
+
+aboutTitle: "Zwischen Bewegung, Stille und Farbe.",
+
+aboutBiographyLead: "Mein Name ist Wörndl Karl-Heinz. Ich bin geboren am 12.06.1956 in Salzburg. Mein Wohnsitz ist in 5204 Straßwalchen, Irrsdorf, Am Hainbach 9. Ich habe schon in früher Jugend mit dem Malen begonnen. Jetzt da ich in Pension bin, habe ich jede Menge Zeit zum Malen und bin darin sehr fleißig und produktiv.",
+
+aboutBiographyTwo: "Meine Arbeit konzentriert sich jetzt auf Acrylmalerei und im Besonderen auf Aquarelle und Collagen mit verschiedenen Materialien. Meine Kompositionen sollen dabei Landschaften, Porträts und zum Teil Abstraktes abbilden. In meinen Arbeiten erkunde ich das Verhältnis zwischen Bewegung und Stille. Dabei lasse ich mich inspirieren von Musik, natürliche Formen und sich daraus ergebende Strukturen. Wichtig ist für mich auch die Möglichkeit, die mir Texturen, Strukturen und Farbschichten geben. Auch visuelle Effekte wie Licht und Schatten garantieren mir Tiefe und emotionales Erleben, die meinen Werken die Spannung verleihen sollen.",
+
+aboutBiographyThree: "Ich untersuche zum Beispiel, wie man Landschaften richtig darstellt um die Vorstellung zu vermitteln, sich darin zu sehen und zu bewegen. Sie sollten den Eindruck erwecken sich damit emotional zu verbinden. Dabei arbeite ich mit verschiedenen Farbschichten und mit diversen Materialien, die mir im Laufe der Zeit die Bildkomposition aufbauen und abschließen. Ein besonderer Aspekt meiner Arbeit ist, durch Kombination und strukturierter Farbkomposition ein Gleichgewicht zwischen Kontrolle und Spontanität zu erreichen. Was meine Arbeit vielleicht einzigartig erscheinen lässt, so meine ich, ist, dass ich einem Interessenten oder Käufer die Inspiration vermitteln will, dass ich ihn neugierig machen möchte eine emotionale Bindung zu einem meiner Bilder aufzubauen, und zu allerletzt das Gefühl erzeuge, dass ihm sagt: „Ich möchte dieses Bild mein Eigen nennen“.",
+
+aboutReadMore: "Ganze Biografie lesen",
+aboutClose: "Biografie schließen",
+aboutButton: "Kontakt aufnehmen",
+
 
         stepsEyebrow: "So funktioniert es",
         stepsTitle: "In 3 einfachen Schritten zum Kunstwerk",
@@ -92,13 +101,13 @@ const translations = {
         contactButton: "Anfrage per E-Mail senden",
         contactSmall: "Gerne können Sie bei Interesse an einem Werk direkt Kontakt aufnehmen.",
 
-        footerRights: "© 2026 KarlHeinz Wörndl. Alle Rechte vorbehalten.",
+        footerRights: "© 2026 Karl-Heinz Wörndl. Alle Rechte vorbehalten.",
         footerImprint: "Impressum",
         footerPrivacy: "Datenschutz"
     },
 
     en: {
-        pageTitle: "Artist Portfolio | KarlHeinz Wörndl",
+        pageTitle: "Artist Portfolio | Karl-Heinz Wörndl",
 
         navStart: "Home",
         navWorks: "Works",
@@ -148,10 +157,18 @@ const translations = {
         filterPerson: "Person",
 
         aboutEyebrow: "About the artist",
-        aboutTitle: "Between movement, stillness and color.",
-        aboutTextOne: "KarlHeinz Wörndl was born in Salzburg in 1956 and lives in Straßwalchen. He began painting at a young age. Since retiring, he has devoted himself intensively to art, working mainly with acrylic, watercolor, collage and a variety of materials.",
-        aboutTextTwo: "His landscapes, portraits and abstract compositions are inspired by music, natural forms and the interplay of light, shadow, texture and layered color. He seeks a balance between control and spontaneity, creating works that invite viewers to form a personal and emotional connection.",
-        aboutButton: "Contact the artist",
+
+aboutTitle: "Between movement, stillness and color.",
+
+aboutBiographyLead: "My name is Karl-Heinz Wörndl. I was born in Salzburg on 12 June 1956. I live at Am Hainbach 9 in Irrsdorf, 5204 Straßwalchen. I began painting at an early age. Now that I am retired, I have plenty of time to paint and am very active and productive.",
+
+aboutBiographyTwo: "My work currently focuses on acrylic painting and, in particular, on watercolors and collages using various materials. My compositions depict landscapes, portraits and, in part, abstract subjects. In my work, I explore the relationship between movement and stillness. I draw inspiration from music, natural forms and the structures that emerge from them. The possibilities offered by textures, structures and layers of color are also important to me. Visual effects such as light and shadow provide depth and emotional experience, giving my works their tension.",
+
+aboutBiographyThree: "For example, I explore how landscapes can be represented in a way that conveys the feeling of seeing oneself within them and moving through them. They should create the impression of forming an emotional connection. I work with different layers of color and various materials that gradually build and complete the composition. A particular aspect of my work is achieving a balance between control and spontaneity through combination and structured color composition. What may make my work unique, in my view, is that I want to inspire interested viewers or buyers, make them curious and encourage them to form an emotional connection with one of my paintings, ultimately creating the feeling that says: “I want to call this painting my own.”",
+
+aboutReadMore: "Read the full biography",
+aboutClose: "Close biography",
+aboutButton: "Contact the artist",
 
         stepsEyebrow: "How it works",
         stepsTitle: "Your artwork in 3 simple steps",
@@ -190,7 +207,7 @@ const translations = {
         contactButton: "Send request by email",
         contactSmall: "Feel free to get in touch directly if you are interested in an artwork.",
 
-        footerRights: "© 2026 KarlHeinz Wörndl. All rights reserved.",
+        footerRights: "© 2026 Karl-Heinz Wörndl. All rights reserved.",
         footerImprint: "Imprint",
         footerPrivacy: "Privacy"
     }
@@ -311,9 +328,35 @@ function applyLanguage() {
     }
 
     setText("#ueber .eyebrow", t.aboutEyebrow);
-    setText("#ueber h2", t.aboutTitle);
-    setAllText("#ueber p:not(.eyebrow)", [t.aboutTextOne, t.aboutTextTwo]);
-    setText("#ueber .primary-button", t.aboutButton);
+setText("#ueber h2", t.aboutTitle);
+
+setText(
+    "#ueber .biography-lead",
+    t.aboutBiographyLead
+);
+
+setAllText(
+    "#ueber .biography-text p",
+    [
+        t.aboutBiographyTwo,
+        t.aboutBiographyThree
+    ]
+);
+
+setText(
+    "#ueber .bio-open-label",
+    t.aboutReadMore
+);
+
+setText(
+    "#ueber .bio-close-label",
+    t.aboutClose
+);
+
+setText(
+    "#ueber .about-contact-button",
+    t.aboutButton
+);
 
     const stepsHeading = document.querySelector(".steps-section .section-heading");
 

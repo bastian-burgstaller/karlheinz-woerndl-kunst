@@ -36,7 +36,7 @@ function updateHeroText() {
     if (heroArtworkImage !== null) {
         heroArtworkImage.alt =
             getHeroTitle(currentHeroArtwork) +
-            " – Kunstwerk von KarlHeinz Wörndl";
+            " – Kunstwerk von Karl-Heinz Wörndl";
     }
 }
 
