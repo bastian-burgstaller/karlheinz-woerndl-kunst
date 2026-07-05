@@ -53,7 +53,7 @@ const translations = {
 
 aboutTitle: "Zwischen Bewegung, Stille und Farbe.",
 
-aboutBiographyLead: "Mein Name ist Wörndl Karl-Heinz. Ich bin geboren am 12.06.1956 in Salzburg. Mein Wohnsitz ist in 5204 Straßwalchen, Irrsdorf, Am Hainbach 9. Ich habe schon in früher Jugend mit dem Malen begonnen. Jetzt da ich in Pension bin, habe ich jede Menge Zeit zum Malen und bin darin sehr fleißig und produktiv.",
+aboutBiographyLead: "Mein Name ist Karl-Heinz Wörndl. Ich bin am 12.06.1956 in Salzburg geboren und lebe heute in Straßwalchen. Ich habe schon in früher Jugend mit dem Malen begonnen. Jetzt, da ich in Pension bin, habe ich jede Menge Zeit zum Malen und bin darin sehr fleißig und produktiv.",
 
 aboutBiographyTwo: "Meine Arbeit konzentriert sich jetzt auf Acrylmalerei und im Besonderen auf Aquarelle und Collagen mit verschiedenen Materialien. Meine Kompositionen sollen dabei Landschaften, Porträts und zum Teil Abstraktes abbilden. In meinen Arbeiten erkunde ich das Verhältnis zwischen Bewegung und Stille. Dabei lasse ich mich inspirieren von Musik, natürliche Formen und sich daraus ergebende Strukturen. Wichtig ist für mich auch die Möglichkeit, die mir Texturen, Strukturen und Farbschichten geben. Auch visuelle Effekte wie Licht und Schatten garantieren mir Tiefe und emotionales Erleben, die meinen Werken die Spannung verleihen sollen.",
 
@@ -160,7 +160,7 @@ aboutButton: "Kontakt aufnehmen",
 
 aboutTitle: "Between movement, stillness and color.",
 
-aboutBiographyLead: "My name is Karl-Heinz Wörndl. I was born in Salzburg on 12 June 1956. I live at Am Hainbach 9 in Irrsdorf, 5204 Straßwalchen. I began painting at an early age. Now that I am retired, I have plenty of time to paint and am very active and productive.",
+aboutBiographyLead: "My name is Karl-Heinz Wörndl. I was born in Salzburg on 12 June 1956 and now live in Straßwalchen. I began painting at an early age. Now that I am retired, I have plenty of time to paint and am very active and productive.",
 
 aboutBiographyTwo: "My work currently focuses on acrylic painting and, in particular, on watercolors and collages using various materials. My compositions depict landscapes, portraits and, in part, abstract subjects. In my work, I explore the relationship between movement and stillness. I draw inspiration from music, natural forms and the structures that emerge from them. The possibilities offered by textures, structures and layers of color are also important to me. Visual effects such as light and shadow provide depth and emotional experience, giving my works their tension.",
 
